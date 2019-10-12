@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: 472d6b9c760c9c940ab12bc78455a4e5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AttachmentRail
+    100002: Cannon
+    100004: CannonBarrel
+    100006: CannonMagazine
+    100008: CannonMagazine1
+    100010: CannonMainBody
+    100012: Console
+    100014: Glass
+    100016: Glass2
+    100018: GlassGroup
+    100020: LeftWing
+    100022: //RootNode
+    100024: MiniMisssile
+    100026: MiniMisssile 1
+    100028: MiniMisssile1
+    100030: MiniMisssile1 1
+    100032: MiniMisssile10
+    100034: MiniMisssile10 1
+    100036: MiniMisssile11
+    100038: MiniMisssile11 1
+    100040: MiniMisssile12
+    100042: MiniMisssile12 1
+    100044: MiniMisssile13
+    100046: MiniMisssile13 1
+    100048: MiniMisssile14
+    100050: MiniMisssile14 1
+    100052: MiniMisssile15
+    100054: MiniMisssile15 1
+    100056: MiniMisssile2
+    100058: MiniMisssile2 1
+    100060: MiniMisssile3
+    100062: MiniMisssile3 1
+    100064: MiniMisssile4
+    100066: MiniMisssile4 1
+    100068: MiniMisssile5
+    100070: MiniMisssile5 1
+    100072: MiniMisssile6
+    100074: MiniMisssile6 1
+    100076: MiniMisssile7
+    100078: MiniMisssile7 1
+    100080: MiniMisssile8
+    100082: MiniMisssile8 1
+    100084: MiniMisssile9
+    100086: MiniMisssile9 1
+    100088: MissileCluster
+    100090: MissileCluster1
+    100092: RailGun
+    100094: RightWing
+    100096: ShipMainBody
+    100098: SidewingUpper
+    100100: SidewingUpper1
+    100102: SidewingUpper2
+    100104: SidewingUpper3
+    100106: SidewingUpper4
+    100108: SidewingUpper5
+    100110: SwarmBarrel
+    100112: SwarmBarrel1
+    100114: SwarmBody
+    100116: SwarmMagazine
+    100118: SwarmMG
+    100120: Thruster
+    100122: Thruster1
+    100124: VentWing
+    100126: WeaponsGroup
+    100128: WeaponsRail
+    400000: AttachmentRail
+    400002: Cannon
+    400004: CannonBarrel
+    400006: CannonMagazine
+    400008: CannonMagazine1
+    400010: CannonMainBody
+    400012: Console
+    400014: Glass
+    400016: Glass2
+    400018: GlassGroup
+    400020: LeftWing
+    400022: //RootNode
+    400024: MiniMisssile
+    400026: MiniMisssile 1
+    400028: MiniMisssile1
+    400030: MiniMisssile1 1
+    400032: MiniMisssile10
+    400034: MiniMisssile10 1
+    400036: MiniMisssile11
+    400038: MiniMisssile11 1
+    400040: MiniMisssile12
+    400042: MiniMisssile12 1
+    400044: MiniMisssile13
+    400046: MiniMisssile13 1
+    400048: MiniMisssile14
+    400050: MiniMisssile14 1
+    400052: MiniMisssile15
+    400054: MiniMisssile15 1
+    400056: MiniMisssile2
+    400058: MiniMisssile2 1
+    400060: MiniMisssile3
+    400062: MiniMisssile3 1
+    400064: MiniMisssile4
+    400066: MiniMisssile4 1
+    400068: MiniMisssile5
+    400070: MiniMisssile5 1
+    400072: MiniMisssile6
+    400074: MiniMisssile6 1
+    400076: MiniMisssile7
+    400078: MiniMisssile7 1
+    400080: MiniMisssile8
+    400082: MiniMisssile8 1
+    400084: MiniMisssile9
+    400086: MiniMisssile9 1
+    400088: MissileCluster
+    400090: MissileCluster1
+    400092: RailGun
+    400094: RightWing
+    400096: ShipMainBody
+    400098: SidewingUpper
+    400100: SidewingUpper1
+    400102: SidewingUpper2
+    400104: SidewingUpper3
+    400106: SidewingUpper4
+    400108: SidewingUpper5
+    400110: SwarmBarrel
+    400112: SwarmBarrel1
+    400114: SwarmBody
+    400116: SwarmMagazine
+    400118: SwarmMG
+    400120: Thruster
+    400122: Thruster1
+    400124: VentWing
+    400126: WeaponsGroup
+    400128: WeaponsRail
+    2100000: MainBody_M
+    2100002: WeaponsRail_M
+    2100004: FlatBlack
+    2100006: VentWing_M
+    2100008: aiStandardSurface12
+    2100010: Glass2_M
+    2100012: SideWingUpper_M
+    2100014: Thruster_M
+    2100016: MiniMissile_M
+    2100018: SwarmBody_M
+    2100020: SwarmMag_M
+    2100022: RailGun_M
+    2100024: CannonBarrel_M
+    2100026: CannonBody_M
+    2100028: aiStandardSurface8
+    2300000: AttachmentRail
+    2300002: CannonBarrel
+    2300004: CannonMagazine
+    2300006: CannonMagazine1
+    2300008: CannonMainBody
+    2300010: Console
+    2300012: Glass
+    2300014: Glass2
+    2300016: MiniMisssile
+    2300018: MiniMisssile 1
+    2300020: MiniMisssile1
+    2300022: MiniMisssile1 1
+    2300024: MiniMisssile10
+    2300026: MiniMisssile10 1
+    2300028: MiniMisssile11
+    2300030: MiniMisssile11 1
+    2300032: MiniMisssile12
+    2300034: MiniMisssile12 1
+    2300036: MiniMisssile13
+    2300038: MiniMisssile13 1
+    2300040: MiniMisssile14
+    2300042: MiniMisssile14 1
+    2300044: MiniMisssile15
+    2300046: MiniMisssile15 1
+    2300048: MiniMisssile2
+    2300050: MiniMisssile2 1
+    2300052: MiniMisssile3
+    2300054: MiniMisssile3 1
+    2300056: MiniMisssile4
+    2300058: MiniMisssile4 1
+    2300060: MiniMisssile5
+    2300062: MiniMisssile5 1
+    2300064: MiniMisssile6
+    2300066: MiniMisssile6 1
+    2300068: MiniMisssile7
+    2300070: MiniMisssile7 1
+    2300072: MiniMisssile8
+    2300074: MiniMisssile8 1
+    2300076: MiniMisssile9
+    2300078: MiniMisssile9 1
+    2300080: RailGun
+    2300082: ShipMainBody
+    2300084: SidewingUpper
+    2300086: SidewingUpper1
+    2300088: SidewingUpper2
+    2300090: SidewingUpper3
+    2300092: SidewingUpper4
+    2300094: SidewingUpper5
+    2300096: SwarmBarrel
+    2300098: SwarmBarrel1
+    2300100: SwarmBody
+    2300102: SwarmMagazine
+    2300104: Thruster
+    2300106: Thruster1
+    2300108: VentWing
+    2300110: WeaponsRail
+    3300000: AttachmentRail
+    3300002: CannonBarrel
+    3300004: CannonMagazine
+    3300006: CannonMagazine1
+    3300008: CannonMainBody
+    3300010: Console
+    3300012: Glass
+    3300014: Glass2
+    3300016: MiniMisssile
+    3300018: MiniMisssile 1
+    3300020: MiniMisssile1
+    3300022: MiniMisssile1 1
+    3300024: MiniMisssile10
+    3300026: MiniMisssile10 1
+    3300028: MiniMisssile11
+    3300030: MiniMisssile11 1
+    3300032: MiniMisssile12
+    3300034: MiniMisssile12 1
+    3300036: MiniMisssile13
+    3300038: MiniMisssile13 1
+    3300040: MiniMisssile14
+    3300042: MiniMisssile14 1
+    3300044: MiniMisssile15
+    3300046: MiniMisssile15 1
+    3300048: MiniMisssile2
+    3300050: MiniMisssile2 1
+    3300052: MiniMisssile3
+    3300054: MiniMisssile3 1
+    3300056: MiniMisssile4
+    3300058: MiniMisssile4 1
+    3300060: MiniMisssile5
+    3300062: MiniMisssile5 1
+    3300064: MiniMisssile6
+    3300066: MiniMisssile6 1
+    3300068: MiniMisssile7
+    3300070: MiniMisssile7 1
+    3300072: MiniMisssile8
+    3300074: MiniMisssile8 1
+    3300076: MiniMisssile9
+    3300078: MiniMisssile9 1
+    3300080: RailGun
+    3300082: ShipMainBody
+    3300084: SidewingUpper
+    3300086: SidewingUpper1
+    3300088: SidewingUpper2
+    3300090: SidewingUpper3
+    3300092: SidewingUpper4
+    3300094: SidewingUpper5
+    3300096: SwarmBarrel
+    3300098: SwarmBarrel1
+    3300100: SwarmBody
+    3300102: SwarmMagazine
+    3300104: Thruster
+    3300106: Thruster1
+    3300108: VentWing
+    3300110: WeaponsRail
+    4300000: ShipMainBody
+    4300002: WeaponsRail
+    4300004: AttachmentRail
+    4300006: VentWing
+    4300008: Glass
+    4300010: Glass2
+    4300012: Console
+    4300014: SidewingUpper4
+    4300016: SidewingUpper3
+    4300018: SidewingUpper5
+    4300020: Thruster1
+    4300022: MiniMisssile
+    4300024: MiniMisssile1
+    4300026: MiniMisssile2
+    4300028: MiniMisssile3
+    4300030: MiniMisssile4
+    4300032: MiniMisssile5
+    4300034: MiniMisssile6
+    4300036: MiniMisssile7
+    4300038: MiniMisssile8
+    4300040: MiniMisssile9
+    4300042: MiniMisssile10
+    4300044: MiniMisssile11
+    4300046: MiniMisssile12
+    4300048: MiniMisssile13
+    4300050: MiniMisssile14
+    4300052: MiniMisssile15
+    4300054: SidewingUpper
+    4300056: SidewingUpper2
+    4300058: SidewingUpper1
+    4300060: Thruster
+    4300062: MiniMisssile
+    4300064: MiniMisssile1
+    4300066: MiniMisssile2
+    4300068: MiniMisssile3
+    4300070: MiniMisssile4
+    4300072: MiniMisssile5
+    4300074: MiniMisssile6
+    4300076: MiniMisssile7
+    4300078: MiniMisssile8
+    4300080: MiniMisssile9
+    4300082: MiniMisssile10
+    4300084: MiniMisssile11
+    4300086: MiniMisssile12
+    4300088: MiniMisssile13
+    4300090: MiniMisssile14
+    4300092: MiniMisssile15
+    4300094: SwarmBody
+    4300096: SwarmMagazine
+    4300098: SwarmBarrel
+    4300100: SwarmBarrel1
+    4300102: RailGun
+    4300104: CannonBarrel
+    4300106: CannonMainBody
+    4300108: CannonMagazine
+    4300110: CannonMagazine1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
