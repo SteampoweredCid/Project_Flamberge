@@ -22,6 +22,20 @@ public class ShipController : MonoBehaviour
     public float Boundary_Horizontal = 5.0f;
     public float Boundary_Vertical = 2.75f;
     public GameObject BoltDeath;
+
+    //Author: @alexanderHinton 
+    //brought relativeMovement from inside fixed update to outside and made public
+    public Vector3 relativeMovement;
+    public float magnitude;
+    //for identifying lastPosition and comparing to current position for a delta value
+    Vector3 lastPosition;
+
+    public void Awake()
+    {
+        lastPosition = transform.position;
+
+    }
+
     private void Start()
 
     {
@@ -58,6 +72,13 @@ public class ShipController : MonoBehaviour
                
             }
         }
+
+        //get Delta by subtracting lastPosition from transform.position and posting a log of current delta
+        //Debug.Log("Delta: " + (transform.position - lastPosition));
+        Vector3 delta = (transform.position - lastPosition);
+        magnitude = delta.magnitude; 
+        lastPosition = transform.position;
+        
     }
 
 
@@ -71,7 +92,7 @@ public class ShipController : MonoBehaviour
             animatorWings.SetFloat("Blend", moveVertical);
         }
         Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0.0f);
-        Vector3 relativeMovement = Camera.main.transform.TransformVector(movement);
+        relativeMovement = Camera.main.transform.TransformVector(movement);
         gameObject.transform.position += relativeMovement * speed;
 
         Vector3 clampedPosition = gameObject.transform.localPosition;
@@ -79,6 +100,8 @@ public class ShipController : MonoBehaviour
         clampedPosition.y = Mathf.Clamp(clampedPosition.y, -Boundary_Vertical, Boundary_Vertical);
 
         gameObject.transform.localPosition = clampedPosition;
+
+        
     }
 
     public void InvTime()
